@@ -35,17 +35,34 @@ body {
 
 .subtitle {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;   /* updated spacing */
     color: #cbd5e1;
 }
 
+/* Mission Statement Styling */
+.mission {
+    font-size: 18px;
+    color: #cbd5e1;
+    max-width: 700px;
+    margin: 10px auto 25px auto;   /* spacing above and below */
+    line-height: 1.6;
+}
+
+/* UPDATED BUTTON */
 .btn {
     padding: 12px 30px;
-    background: #2563eb;
+    background: #3b82f6;     /* slightly nicer blue */
     color: white;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
+    display: inline-block;
+    margin-top: 15px;        /* ensures spacing above */
+    transition: background 0.2s ease;
+}
+
+.btn:hover {
+    background: #1d4ed8;
 }
 
 /* SKILLS */
