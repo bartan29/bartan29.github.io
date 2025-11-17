@@ -106,3 +106,47 @@ body {
     color: #2563eb;
     font-weight: 600;
 }
+
+/* THEME TOGGLE BUTTON */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+/* LIGHT MODE */
+.light-mode {
+    background: #ffffff;
+    color: #1f2937;
+}
+
+.light-mode .hero {
+    background: linear-gradient(to bottom right, #e5e7eb, #f3f4f6);
+    color: #1f2937;
+}
+
+.light-mode .subtitle,
+.light-mode .mission {
+    color: #4b5563;
+}
+
+.light-mode .btn {
+    background: #2563eb;
+}
+
+.light-mode .skill-box {
+    background: #f3f4f6;
+}
+
+.light-mode .project-card {
+    background: #ffffff;
+}
+
+.light-mode .theme-toggle {
+    color: #1f2937;
+}
