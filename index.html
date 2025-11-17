@@ -3,39 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akbar Tantu | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Muhammad Akbar Tantu | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <h1>Muhammad Akbar Tantu</h1>
-        <p>Business Analytics & Cyber Security | UNSW</p>
+    <!-- Header / Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Muhammad Akbar Tantu</h1>
+            <p class="subtitle">Business Analytics & Cyber Security | UNSW Sydney</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </header>
 
-    <section id="about">
+    <!-- About -->
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Short summary about your background. I can write one for you later.</p>
+        <p>
+            I’m currently pursuing my Master of Commerce (Business Analytics & Cyber Security) at UNSW.
+            My work blends analytics, problem solving, and risk thinking — supported by 10+ years of professional experience in the telecommunications industry.
+        </p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description goes here.</p>
+    <!-- Skills -->
+    <section id="skills" class="section gray">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+            <div class="skill-box">Python</div>
+            <div class="skill-box">R & Machine Learning</div>
+            <div class="skill-box">SQL</div>
+            <div class="skill-box">Power BI</div>
+            <div class="skill-box">Cybersecurity Governance</div>
+            <div class="skill-box">Data Modelling</div>
         </div>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Your key highlights.</p>
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Creditworthiness Machine Learning Model</h3>
+                <p>Built multiple classification models (KNN, Logistic Regression, ANN) for predicting loan default risk.</p>
+                <a href="#" class="link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Cybersecurity Plan for Outreach Education</h3>
+                <p>Developed a practical security framework using Microsoft Defender, governance, and incident response.</p>
+                <a href="#" class="link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>NEOS Insurance Predictive Analytics</h3>
+                <p>Designed a modelling pipeline for premium pricing and customer segmentation.</p>
+                <a href="#" class="link">View Project →</a>
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="contact">
+    <!-- Contact -->
+    <section id="contact" class="section gray">
         <h2>Contact</h2>
-        <p>Email: youraddress@gmail.com</p>
-        <p>LinkedIn: link here</p>
-        <p>GitHub: link here</p>
+        <p>Email: <a href="mailto:muhammadakbartantu@gmail.com">muhammadakbartantu@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/akbartantu/">linkedin.com/in/akbartantu</a></p>
+        <p>GitHub: <a href="https://github.com/bartan29">github.com/bartan29</a></p>
     </section>
 
 </body>
